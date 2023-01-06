@@ -35,19 +35,40 @@ XiaoFeng.Ftp generator with [XiaoFeng.Ftp](https://github.com/zhuovi/XiaoFeng.Ft
 .NET CLI
 
 ```
-$ dotnet add package XiaoFeng.Ftp
+$ dotnet add package XiaoFeng.Ftp --version 2.0.0
 ```
 
 Package Manager
 
 ```
-PM> Install-Package XiaoFeng.Ftp
+PM> Install-Package XiaoFeng.Ftp --Version 2.0.0
 ```
 
 PackageReference
 
 ```
 <PackageReference Include="XiaoFeng.Ftp" Version="2.0.0" />
+```
+Paket CLI
+
+```
+> paket add XiaoFeng.Ftp --version 2.0.0
+```
+
+Script & Interactive
+
+```
+> #r "nuget: XiaoFeng.Ftp, 2.0.0"
+```
+
+Cake
+
+```
+// Install XiaoFeng.Ftp as a Cake Addin
+#addin nuget:?package=XiaoFeng.Ftp&version=2.0.0
+
+// Install XiaoFeng.Ftp as a Cake Tool
+#tool nuget:?package=XiaoFeng.Ftp&version=2.0.0
 ```
 
 # XiaoFeng.Ftp
